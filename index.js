@@ -8,6 +8,4 @@ const server = http.createServer(function(request, response) {
 const port = process.env.PORT || 1337;
 server.listen(port);
 
-console.log(meow)
-
 console.log(`Server running at http://localhost:${port}`);
